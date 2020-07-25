@@ -344,7 +344,10 @@ public class PluginsService implements ReportingService<PluginsAndModules> {
      */
     static void verifyCompatibility(PluginInfo info) {
         if (info.getElasticsearchVersion().equals(Version.CURRENT) == false) {
-            throw new IllegalArgumentException("Plugin [" + info.getName() + "] was built for Elasticsearch version "
+//            throw new IllegalArgumentException("Plugin [" + info.getName() + "] was built for Elasticsearch version "
+//                + info.getElasticsearchVersion() + " but version " + Version.CURRENT + " is running");
+
+            System.out.println("Plugin [" + info.getName() + "] was built for Elasticsearch version "
                 + info.getElasticsearchVersion() + " but version " + Version.CURRENT + " is running");
         }
         JarHell.checkJavaVersion(info.getName(), info.getJavaVersion());
