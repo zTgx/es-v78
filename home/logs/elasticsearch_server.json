@@ -1,0 +1,513 @@
+{"type": "server", "timestamp": "2020-07-25T15:06:22,188+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalStateException: modules directory [C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\modules] not found",
+"at org.elasticsearch.bootstrap.Spawner.spawnNativeControllers(Spawner.java:68) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:171) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:06:22,205+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: modules directory [C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\modules] not found",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]",
+"Caused by: java.lang.IllegalStateException: modules directory [C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\modules] not found",
+"at org.elasticsearch.bootstrap.Spawner.spawnNativeControllers(Spawner.java:68) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:171) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T15:10:01,404+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "version[8.0.0], pid[20468], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T15:10:01,415+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T15:10:01,416+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=5950:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T15:10:02,361+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:10:02,367+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T15:12:56,798+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "version[8.0.0], pid[5524], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T15:12:56,805+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T15:12:56,806+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=6228:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T15:12:57,920+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:12:57,927+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T15:15:10,662+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "version[8.0.0], pid[14356], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T15:15:10,670+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T15:15:10,671+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=6299:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T15:15:11,741+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:15:11,748+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T15:30:13,042+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "version[8.0.0], pid[14712], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T15:30:13,055+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T15:30:13,056+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=7360:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T15:30:14,978+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:30:14,987+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T15:34:44,711+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "version[8.0.0], pid[12876], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T15:34:44,721+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T15:34:44,722+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=7619:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T15:34:45,996+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:34:46,003+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T15:43:44,024+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "version[8.0.0], pid[16328], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T15:43:44,032+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T15:43:44,032+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\elasticsearch\\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=7962:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T15:43:45,499+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T15:43:45,509+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T17:46:41,107+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "version[7.8.1], pid[6228], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T17:46:41,117+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T17:46:41,117+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "JVM arguments [-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:11574,suspend=y,server=n, -Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home, -Dlog4j2.disable.jmx=true, -Djava.security.policy=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config\\java.policy, -Des.node.name=78, -javaagent:C:\\Users\\zTgx\\AppData\\Local\\JetBrains\\IdeaIC2020.1\\groovyHotSwap\\gragent.jar, -javaagent:C:\\Users\\zTgx\\AppData\\Local\\JetBrains\\IdeaIC2020.1\\captureAgent\\debugger-agent.jar, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T17:46:42,421+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "78", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T17:46:42,431+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "78", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T17:47:04,640+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "version[7.8.1], pid[13116], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T17:47:04,648+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T17:47:04,649+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home, -Dlog4j2.disable.jmx=true, -Djava.security.policy=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config\\java.policy, -Des.node.name=78, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=11603:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T17:47:05,741+08:00", "level": "ERROR", "component": "o.e.b.Bootstrap", "cluster.name": "elasticsearch", "node.name": "78", "message": "Exception", 
+"stacktrace": ["java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]"] }
+{"type": "server", "timestamp": "2020-07-25T17:47:05,748+08:00", "level": "ERROR", "component": "o.e.b.ElasticsearchUncaughtExceptionHandler", "cluster.name": "elasticsearch", "node.name": "78", "message": "uncaught exception in thread [main]", 
+"stacktrace": ["org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]",
+"at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]",
+"at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]",
+"Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running",
+"at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]",
+"at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]",
+"at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) ~[classes/:?]",
+"at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]",
+"... 6 more"] }
+{"type": "server", "timestamp": "2020-07-25T17:49:05,399+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "version[7.8.1], pid[1244], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:05,407+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "JVM home [C:\\Program Files\\Java\\jdk-14.0.1]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:05,408+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "JVM arguments [-Des.path.conf=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config, -Des.path.home=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home, -Dlog4j2.disable.jmx=true, -Djava.security.policy=C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config\\java.policy, -Des.node.name=78, -javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\lib\\idea_rt.jar=11649:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2020.1.2\\bin, -Dfile.encoding=UTF-8]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:06,433+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:07,440+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [flattened] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:08,067+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [percolator] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:08,682+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [repository-url] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:09,301+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [rank-eval] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:10,040+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [reindex] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:10,692+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [ingest-user-agent] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:11,348+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-async-search] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:12,082+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-security] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:12,790+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [searchable-snapshots] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:13,403+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-monitoring] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:14,008+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [lang-painless] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:14,708+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [vectors] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:15,363+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-watcher] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:16,135+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-analytics] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:16,791+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-ml] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:17,490+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [lang-mustache] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:18,217+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-ilm] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:18,836+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-ql] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:19,465+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [analysis-common] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:20,151+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-voting-only-node] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:20,834+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [transport-netty4] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:21,469+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-deprecation] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:22,071+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [ingest-common] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:22,891+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [frozen-indices] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:23,665+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-identity-provider] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:24,312+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-autoscaling] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:24,946+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [ingest-geoip] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:25,548+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [kibana] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:26,155+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [constant-keyword] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:26,744+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [search-business-rules] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:27,322+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [aggs-matrix-stats] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:27,906+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-logstash] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:28,518+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-ccr] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:29,212+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-graph] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:29,834+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-sql] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:30,501+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [parent-join] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:31,138+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-enrich] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:31,734+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [transform] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:32,340+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [lang-expression] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:32,939+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [spatial] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:33,535+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [mapper-extras] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:34,114+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [tasks] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:34,736+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-rollup] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,353+08:00", "level": "INFO", "component": "stdout", "cluster.name": "elasticsearch", "node.name": "78", "message": "Plugin [x-pack-eql] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,383+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [aggs-matrix-stats]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,383+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [analysis-common]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,384+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [constant-keyword]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,384+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [flattened]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,384+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [frozen-indices]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,384+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [ingest-common]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,385+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [ingest-geoip]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,385+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [ingest-user-agent]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,385+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [kibana]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,385+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [lang-expression]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,386+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [lang-mustache]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,386+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [lang-painless]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,386+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [mapper-extras]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,386+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [parent-join]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,386+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [percolator]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [rank-eval]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [reindex]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [repository-url]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [search-business-rules]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [searchable-snapshots]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [spatial]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,387+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [tasks]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,388+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [transform]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,388+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [transport-netty4]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,388+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [vectors]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,388+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-analytics]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,388+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-async-search]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,388+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-autoscaling]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-ccr]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-core]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-deprecation]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-enrich]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-eql]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-graph]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,389+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-identity-provider]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,390+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-ilm]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,390+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-logstash]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,390+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-ml]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,390+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-monitoring]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,390+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-ql]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,390+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-rollup]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,391+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-security]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,391+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-sql]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,391+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-voting-only-node]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,391+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "loaded module [x-pack-watcher]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,392+08:00", "level": "INFO", "component": "o.e.p.PluginsService", "cluster.name": "elasticsearch", "node.name": "78", "message": "no plugins loaded" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,971+08:00", "level": "INFO", "component": "o.e.e.NodeEnvironment", "cluster.name": "elasticsearch", "node.name": "78", "message": "using [1] data paths, mounts [[Windows (C:)]], net usable_space [60.9gb], net total_space [207.2gb], types [NTFS]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:35,972+08:00", "level": "INFO", "component": "o.e.e.NodeEnvironment", "cluster.name": "elasticsearch", "node.name": "78", "message": "heap size [1.9gb], compressed ordinary object pointers [true]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:36,110+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "node name [78], node ID [Z-l0QEnDRRez9h98N9PLeA], cluster name [elasticsearch]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:36,732+08:00", "level": "INFO", "component": "i.n.u.i.PlatformDependent", "cluster.name": "elasticsearch", "node.name": "78", "message": "Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability." }
+{"type": "server", "timestamp": "2020-07-25T17:49:42,281+08:00", "level": "INFO", "component": "o.e.x.s.a.s.FileRolesStore", "cluster.name": "elasticsearch", "node.name": "78", "message": "parsed [0] roles from file [C:\\Users\\zTgx\\Desktop\\github.com.c\\java-src\\78\\home\\config\\roles.yml]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:43,364+08:00", "level": "INFO", "component": "o.e.x.m.p.l.CppLogMessageHandler", "cluster.name": "elasticsearch", "node.name": "78", "message": "[controller/1036] [Main.cc@110] controller (64 bit): Version 7.8.0 (Build 58ff6912e20047) Copyright (c) 2020 Elasticsearch BV" }
+{"type": "server", "timestamp": "2020-07-25T17:49:45,002+08:00", "level": "INFO", "component": "i.n.u.i.PlatformDependent", "cluster.name": "elasticsearch", "node.name": "78", "message": "Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability." }
+{"type": "server", "timestamp": "2020-07-25T17:49:45,157+08:00", "level": "INFO", "component": "o.e.d.DiscoveryModule", "cluster.name": "elasticsearch", "node.name": "78", "message": "using discovery type [zen] and seed hosts providers [settings]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:46,673+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "initialized" }
+{"type": "server", "timestamp": "2020-07-25T17:49:46,674+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "starting ..." }
+{"type": "server", "timestamp": "2020-07-25T17:49:47,013+08:00", "level": "INFO", "component": "o.e.t.TransportService", "cluster.name": "elasticsearch", "node.name": "78", "message": "publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}" }
+{"type": "server", "timestamp": "2020-07-25T17:49:47,292+08:00", "level": "WARN", "component": "o.e.b.BootstrapChecks", "cluster.name": "elasticsearch", "node.name": "78", "message": "initial heap size [132120576] not equal to maximum heap size [2109734912]; this can cause resize pauses and prevents mlockall from locking the entire heap" }
+{"type": "server", "timestamp": "2020-07-25T17:49:47,293+08:00", "level": "WARN", "component": "o.e.b.BootstrapChecks", "cluster.name": "elasticsearch", "node.name": "78", "message": "the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured" }
+{"type": "server", "timestamp": "2020-07-25T17:49:47,328+08:00", "level": "INFO", "component": "o.e.c.c.ClusterBootstrapService", "cluster.name": "elasticsearch", "node.name": "78", "message": "no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered" }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,335+08:00", "level": "INFO", "component": "o.e.c.c.Coordinator", "cluster.name": "elasticsearch", "node.name": "78", "message": "setting initial configuration to VotingConfiguration{Z-l0QEnDRRez9h98N9PLeA}" }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,582+08:00", "level": "INFO", "component": "o.e.c.s.MasterService", "cluster.name": "elasticsearch", "node.name": "78", "message": "elected-as-master ([1] nodes joined)[{78}{Z-l0QEnDRRez9h98N9PLeA}{SFRS4Z-SS06hMnDyecVmRA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8437637120, xpack.installed=true, transform.node=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{78}{Z-l0QEnDRRez9h98N9PLeA}{SFRS4Z-SS06hMnDyecVmRA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8437637120, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}" }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,648+08:00", "level": "INFO", "component": "o.e.c.c.CoordinationState", "cluster.name": "elasticsearch", "node.name": "78", "message": "cluster UUID set to [pXOxCE76SU-qr2kcwBHQDQ]" }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,701+08:00", "level": "INFO", "component": "o.e.c.s.ClusterApplierService", "cluster.name": "elasticsearch", "node.name": "78", "message": "master node changed {previous [], current [{78}{Z-l0QEnDRRez9h98N9PLeA}{SFRS4Z-SS06hMnDyecVmRA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8437637120, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}, term: 1, version: 1, reason: Publication{term=1, version=1}" }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,791+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.watch-history-11] for [watcher], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,792+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.triggered_watches] for [watcher], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,793+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.watches] for [watcher], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,822+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-anomalies-] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,822+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-state] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,823+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-config] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,823+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-inference-000002] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,831+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-meta] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,835+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-notifications-000001] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,835+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.ml-stats] for [ml], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,844+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [ilm-history] for [index_lifecycle], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,859+08:00", "level": "INFO", "component": "o.e.x.c.t.IndexTemplateRegistry", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index template [.slm-history] for [index_lifecycle], because it doesn't exist", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,890+08:00", "level": "INFO", "component": "o.e.h.AbstractHttpServerTransport", "cluster.name": "elasticsearch", "node.name": "78", "message": "publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,891+08:00", "level": "INFO", "component": "o.e.n.Node", "cluster.name": "elasticsearch", "node.name": "78", "message": "started", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:50,920+08:00", "level": "INFO", "component": "o.e.g.GatewayService", "cluster.name": "elasticsearch", "node.name": "78", "message": "recovered [0] indices into cluster_state", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:51,372+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.triggered_watches] for index patterns [.triggered_watches*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:51,463+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.watches] for index patterns [.watches*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:51,650+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.watch-history-11] for index patterns [.watcher-history-11*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:51,748+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-state] for index patterns [.ml-state*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:51,846+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-config] for index patterns [.ml-config]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:51,953+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-anomalies-] for index patterns [.ml-anomalies-*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,040+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-meta] for index patterns [.ml-meta]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,132+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-inference-000002] for index patterns [.ml-inference-000002]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,213+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-notifications-000001] for index patterns [.ml-notifications-000001]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,290+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.ml-stats] for index patterns [.ml-stats-*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,376+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [ilm-history] for index patterns [ilm-history-2*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,449+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.slm-history] for index patterns [.slm-history-2*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,520+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,599+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,682+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,753+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,814+08:00", "level": "INFO", "component": "o.e.c.m.MetadataIndexTemplateService", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,912+08:00", "level": "INFO", "component": "o.e.x.i.a.TransportPutLifecycleAction", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index lifecycle policy [watch-history-ilm-policy]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:52,979+08:00", "level": "INFO", "component": "o.e.x.i.a.TransportPutLifecycleAction", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index lifecycle policy [ml-size-based-ilm-policy]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:53,049+08:00", "level": "INFO", "component": "o.e.x.i.a.TransportPutLifecycleAction", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index lifecycle policy [ilm-history-ilm-policy]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:53,105+08:00", "level": "INFO", "component": "o.e.x.i.a.TransportPutLifecycleAction", "cluster.name": "elasticsearch", "node.name": "78", "message": "adding index lifecycle policy [slm-history-ilm-policy]", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:53,292+08:00", "level": "INFO", "component": "o.e.l.LicenseService", "cluster.name": "elasticsearch", "node.name": "78", "message": "license [ae5d262d-9410-4356-9aee-2d8f48d39ce7] mode [basic] - valid", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }
+{"type": "server", "timestamp": "2020-07-25T17:49:53,293+08:00", "level": "INFO", "component": "o.e.x.s.s.SecurityStatusChangeListener", "cluster.name": "elasticsearch", "node.name": "78", "message": "Active license is now [BASIC]; Security is disabled", "cluster.uuid": "pXOxCE76SU-qr2kcwBHQDQ", "node.id": "Z-l0QEnDRRez9h98N9PLeA"  }

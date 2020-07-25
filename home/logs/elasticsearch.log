@@ -1,0 +1,513 @@
+[2020-07-25T15:06:22,188][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalStateException: modules directory [C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\modules] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativeControllers(Spawner.java:68) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:171) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+[2020-07-25T15:06:22,205][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: modules directory [C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\modules] not found
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.IllegalStateException: modules directory [C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\modules] not found
+	at org.elasticsearch.bootstrap.Spawner.spawnNativeControllers(Spawner.java:68) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:171) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]
+	... 6 more
+[2020-07-25T15:10:01,404][INFO ][o.e.n.Node               ] [] version[8.0.0], pid[20468], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T15:10:01,415][INFO ][o.e.n.Node               ] [] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T15:10:01,416][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=5950:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T15:10:02,361][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+[2020-07-25T15:10:02,367][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]
+	... 6 more
+[2020-07-25T15:12:56,798][INFO ][o.e.n.Node               ] [] version[8.0.0], pid[5524], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T15:12:56,805][INFO ][o.e.n.Node               ] [] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T15:12:56,806][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=6228:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T15:12:57,920][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+[2020-07-25T15:12:57,927][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]
+	... 6 more
+[2020-07-25T15:15:10,662][INFO ][o.e.n.Node               ] [] version[8.0.0], pid[14356], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T15:15:10,670][INFO ][o.e.n.Node               ] [] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T15:15:10,671][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=6299:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T15:15:11,741][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+[2020-07-25T15:15:11,748][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[main/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[main/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[main/:?]
+	... 6 more
+[2020-07-25T15:30:13,042][INFO ][o.e.n.Node               ] [] version[8.0.0], pid[14712], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T15:30:13,055][INFO ][o.e.n.Node               ] [] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T15:30:13,056][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=7360:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T15:30:14,978][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]
+[2020-07-25T15:30:14,987][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]
+	... 6 more
+[2020-07-25T15:34:44,711][INFO ][o.e.n.Node               ] [] version[8.0.0], pid[12876], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T15:34:44,721][INFO ][o.e.n.Node               ] [] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T15:34:44,722][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=7619:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T15:34:45,996][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]
+[2020-07-25T15:34:46,003][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]
+	... 6 more
+[2020-07-25T15:43:44,024][INFO ][o.e.n.Node               ] [] version[8.0.0], pid[16328], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T15:43:44,032][INFO ][o.e.n.Node               ] [] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T15:43:44,032][INFO ][o.e.n.Node               ] [] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\elasticsearch\home, -Dlog4j2.disable.jmx=true, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=7962:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T15:43:45,499][ERROR][o.e.b.Bootstrap          ] [] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]
+[2020-07-25T15:43:45,509][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 8.0.0 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:309) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:576) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:433) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:160) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:316) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:265) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:225) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:387) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]
+	... 6 more
+[2020-07-25T17:46:41,107][INFO ][o.e.n.Node               ] [78] version[7.8.1], pid[6228], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T17:46:41,117][INFO ][o.e.n.Node               ] [78] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T17:46:41,117][INFO ][o.e.n.Node               ] [78] JVM arguments [-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:11574,suspend=y,server=n, -Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home, -Dlog4j2.disable.jmx=true, -Djava.security.policy=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config\java.policy, -Des.node.name=78, -javaagent:C:\Users\zTgx\AppData\Local\JetBrains\IdeaIC2020.1\groovyHotSwap\gragent.jar, -javaagent:C:\Users\zTgx\AppData\Local\JetBrains\IdeaIC2020.1\captureAgent\debugger-agent.jar, -Dfile.encoding=UTF-8]
+[2020-07-25T17:46:42,421][ERROR][o.e.b.Bootstrap          ] [78] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]
+[2020-07-25T17:46:42,431][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [78] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]
+	... 6 more
+[2020-07-25T17:47:04,640][INFO ][o.e.n.Node               ] [78] version[7.8.1], pid[13116], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T17:47:04,648][INFO ][o.e.n.Node               ] [78] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T17:47:04,649][INFO ][o.e.n.Node               ] [78] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home, -Dlog4j2.disable.jmx=true, -Djava.security.policy=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config\java.policy, -Des.node.name=78, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=11603:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T17:47:05,741][ERROR][o.e.b.Bootstrap          ] [78] Exception
+java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) [classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) [classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) [classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) [classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [classes/:?]
+[2020-07-25T17:47:05,748][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [78] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[classes/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[classes/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[classes/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[classes/:?]
+Caused by: java.lang.IllegalArgumentException: Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+	at org.elasticsearch.plugins.PluginsService.verifyCompatibility(PluginsService.java:348) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundle(PluginsService.java:533) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:473) ~[classes/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:164) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:317) ~[classes/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:266) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:227) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) ~[classes/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[classes/:?]
+	... 6 more
+[2020-07-25T17:49:05,399][INFO ][o.e.n.Node               ] [78] version[7.8.1], pid[1244], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-07-25T17:49:05,407][INFO ][o.e.n.Node               ] [78] JVM home [C:\Program Files\Java\jdk-14.0.1]
+[2020-07-25T17:49:05,408][INFO ][o.e.n.Node               ] [78] JVM arguments [-Des.path.conf=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config, -Des.path.home=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home, -Dlog4j2.disable.jmx=true, -Djava.security.policy=C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config\java.policy, -Des.node.name=78, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\lib\idea_rt.jar=11649:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin, -Dfile.encoding=UTF-8]
+[2020-07-25T17:49:06,433][INFO ][stdout                   ] [78] Plugin [x-pack-core] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:07,440][INFO ][stdout                   ] [78] Plugin [flattened] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:08,067][INFO ][stdout                   ] [78] Plugin [percolator] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:08,682][INFO ][stdout                   ] [78] Plugin [repository-url] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:09,301][INFO ][stdout                   ] [78] Plugin [rank-eval] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:10,040][INFO ][stdout                   ] [78] Plugin [reindex] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:10,692][INFO ][stdout                   ] [78] Plugin [ingest-user-agent] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:11,348][INFO ][stdout                   ] [78] Plugin [x-pack-async-search] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:12,082][INFO ][stdout                   ] [78] Plugin [x-pack-security] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:12,790][INFO ][stdout                   ] [78] Plugin [searchable-snapshots] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:13,403][INFO ][stdout                   ] [78] Plugin [x-pack-monitoring] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:14,008][INFO ][stdout                   ] [78] Plugin [lang-painless] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:14,708][INFO ][stdout                   ] [78] Plugin [vectors] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:15,363][INFO ][stdout                   ] [78] Plugin [x-pack-watcher] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:16,135][INFO ][stdout                   ] [78] Plugin [x-pack-analytics] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:16,791][INFO ][stdout                   ] [78] Plugin [x-pack-ml] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:17,490][INFO ][stdout                   ] [78] Plugin [lang-mustache] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:18,217][INFO ][stdout                   ] [78] Plugin [x-pack-ilm] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:18,836][INFO ][stdout                   ] [78] Plugin [x-pack-ql] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:19,465][INFO ][stdout                   ] [78] Plugin [analysis-common] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:20,151][INFO ][stdout                   ] [78] Plugin [x-pack-voting-only-node] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:20,834][INFO ][stdout                   ] [78] Plugin [transport-netty4] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:21,469][INFO ][stdout                   ] [78] Plugin [x-pack-deprecation] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:22,071][INFO ][stdout                   ] [78] Plugin [ingest-common] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:22,891][INFO ][stdout                   ] [78] Plugin [frozen-indices] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:23,665][INFO ][stdout                   ] [78] Plugin [x-pack-identity-provider] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:24,312][INFO ][stdout                   ] [78] Plugin [x-pack-autoscaling] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:24,946][INFO ][stdout                   ] [78] Plugin [ingest-geoip] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:25,548][INFO ][stdout                   ] [78] Plugin [kibana] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:26,155][INFO ][stdout                   ] [78] Plugin [constant-keyword] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:26,744][INFO ][stdout                   ] [78] Plugin [search-business-rules] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:27,322][INFO ][stdout                   ] [78] Plugin [aggs-matrix-stats] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:27,906][INFO ][stdout                   ] [78] Plugin [x-pack-logstash] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:28,518][INFO ][stdout                   ] [78] Plugin [x-pack-ccr] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:29,212][INFO ][stdout                   ] [78] Plugin [x-pack-graph] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:29,834][INFO ][stdout                   ] [78] Plugin [x-pack-sql] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:30,501][INFO ][stdout                   ] [78] Plugin [parent-join] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:31,138][INFO ][stdout                   ] [78] Plugin [x-pack-enrich] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:31,734][INFO ][stdout                   ] [78] Plugin [transform] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:32,340][INFO ][stdout                   ] [78] Plugin [lang-expression] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:32,939][INFO ][stdout                   ] [78] Plugin [spatial] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:33,535][INFO ][stdout                   ] [78] Plugin [mapper-extras] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:34,114][INFO ][stdout                   ] [78] Plugin [tasks] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:34,736][INFO ][stdout                   ] [78] Plugin [x-pack-rollup] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:35,353][INFO ][stdout                   ] [78] Plugin [x-pack-eql] was built for Elasticsearch version 7.8.0 but version 7.8.1 is running
+[2020-07-25T17:49:35,383][INFO ][o.e.p.PluginsService     ] [78] loaded module [aggs-matrix-stats]
+[2020-07-25T17:49:35,383][INFO ][o.e.p.PluginsService     ] [78] loaded module [analysis-common]
+[2020-07-25T17:49:35,384][INFO ][o.e.p.PluginsService     ] [78] loaded module [constant-keyword]
+[2020-07-25T17:49:35,384][INFO ][o.e.p.PluginsService     ] [78] loaded module [flattened]
+[2020-07-25T17:49:35,384][INFO ][o.e.p.PluginsService     ] [78] loaded module [frozen-indices]
+[2020-07-25T17:49:35,384][INFO ][o.e.p.PluginsService     ] [78] loaded module [ingest-common]
+[2020-07-25T17:49:35,385][INFO ][o.e.p.PluginsService     ] [78] loaded module [ingest-geoip]
+[2020-07-25T17:49:35,385][INFO ][o.e.p.PluginsService     ] [78] loaded module [ingest-user-agent]
+[2020-07-25T17:49:35,385][INFO ][o.e.p.PluginsService     ] [78] loaded module [kibana]
+[2020-07-25T17:49:35,385][INFO ][o.e.p.PluginsService     ] [78] loaded module [lang-expression]
+[2020-07-25T17:49:35,386][INFO ][o.e.p.PluginsService     ] [78] loaded module [lang-mustache]
+[2020-07-25T17:49:35,386][INFO ][o.e.p.PluginsService     ] [78] loaded module [lang-painless]
+[2020-07-25T17:49:35,386][INFO ][o.e.p.PluginsService     ] [78] loaded module [mapper-extras]
+[2020-07-25T17:49:35,386][INFO ][o.e.p.PluginsService     ] [78] loaded module [parent-join]
+[2020-07-25T17:49:35,386][INFO ][o.e.p.PluginsService     ] [78] loaded module [percolator]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [rank-eval]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [reindex]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [repository-url]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [search-business-rules]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [searchable-snapshots]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [spatial]
+[2020-07-25T17:49:35,387][INFO ][o.e.p.PluginsService     ] [78] loaded module [tasks]
+[2020-07-25T17:49:35,388][INFO ][o.e.p.PluginsService     ] [78] loaded module [transform]
+[2020-07-25T17:49:35,388][INFO ][o.e.p.PluginsService     ] [78] loaded module [transport-netty4]
+[2020-07-25T17:49:35,388][INFO ][o.e.p.PluginsService     ] [78] loaded module [vectors]
+[2020-07-25T17:49:35,388][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-analytics]
+[2020-07-25T17:49:35,388][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-async-search]
+[2020-07-25T17:49:35,388][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-autoscaling]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-ccr]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-core]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-deprecation]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-enrich]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-eql]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-graph]
+[2020-07-25T17:49:35,389][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-identity-provider]
+[2020-07-25T17:49:35,390][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-ilm]
+[2020-07-25T17:49:35,390][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-logstash]
+[2020-07-25T17:49:35,390][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-ml]
+[2020-07-25T17:49:35,390][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-monitoring]
+[2020-07-25T17:49:35,390][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-ql]
+[2020-07-25T17:49:35,390][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-rollup]
+[2020-07-25T17:49:35,391][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-security]
+[2020-07-25T17:49:35,391][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-sql]
+[2020-07-25T17:49:35,391][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-voting-only-node]
+[2020-07-25T17:49:35,391][INFO ][o.e.p.PluginsService     ] [78] loaded module [x-pack-watcher]
+[2020-07-25T17:49:35,392][INFO ][o.e.p.PluginsService     ] [78] no plugins loaded
+[2020-07-25T17:49:35,971][INFO ][o.e.e.NodeEnvironment    ] [78] using [1] data paths, mounts [[Windows (C:)]], net usable_space [60.9gb], net total_space [207.2gb], types [NTFS]
+[2020-07-25T17:49:35,972][INFO ][o.e.e.NodeEnvironment    ] [78] heap size [1.9gb], compressed ordinary object pointers [true]
+[2020-07-25T17:49:36,110][INFO ][o.e.n.Node               ] [78] node name [78], node ID [Z-l0QEnDRRez9h98N9PLeA], cluster name [elasticsearch]
+[2020-07-25T17:49:36,732][INFO ][i.n.u.i.PlatformDependent] [78] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-07-25T17:49:42,281][INFO ][o.e.x.s.a.s.FileRolesStore] [78] parsed [0] roles from file [C:\Users\zTgx\Desktop\github.com.c\java-src\78\home\config\roles.yml]
+[2020-07-25T17:49:43,364][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [78] [controller/1036] [Main.cc@110] controller (64 bit): Version 7.8.0 (Build 58ff6912e20047) Copyright (c) 2020 Elasticsearch BV
+[2020-07-25T17:49:45,002][INFO ][i.n.u.i.PlatformDependent] [78] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-07-25T17:49:45,157][INFO ][o.e.d.DiscoveryModule    ] [78] using discovery type [zen] and seed hosts providers [settings]
+[2020-07-25T17:49:46,673][INFO ][o.e.n.Node               ] [78] initialized
+[2020-07-25T17:49:46,674][INFO ][o.e.n.Node               ] [78] starting ...
+[2020-07-25T17:49:47,013][INFO ][o.e.t.TransportService   ] [78] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-07-25T17:49:47,292][WARN ][o.e.b.BootstrapChecks    ] [78] initial heap size [132120576] not equal to maximum heap size [2109734912]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-07-25T17:49:47,293][WARN ][o.e.b.BootstrapChecks    ] [78] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-07-25T17:49:47,328][INFO ][o.e.c.c.ClusterBootstrapService] [78] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-07-25T17:49:50,335][INFO ][o.e.c.c.Coordinator      ] [78] setting initial configuration to VotingConfiguration{Z-l0QEnDRRez9h98N9PLeA}
+[2020-07-25T17:49:50,582][INFO ][o.e.c.s.MasterService    ] [78] elected-as-master ([1] nodes joined)[{78}{Z-l0QEnDRRez9h98N9PLeA}{SFRS4Z-SS06hMnDyecVmRA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8437637120, xpack.installed=true, transform.node=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{78}{Z-l0QEnDRRez9h98N9PLeA}{SFRS4Z-SS06hMnDyecVmRA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8437637120, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}
+[2020-07-25T17:49:50,648][INFO ][o.e.c.c.CoordinationState] [78] cluster UUID set to [pXOxCE76SU-qr2kcwBHQDQ]
+[2020-07-25T17:49:50,701][INFO ][o.e.c.s.ClusterApplierService] [78] master node changed {previous [], current [{78}{Z-l0QEnDRRez9h98N9PLeA}{SFRS4Z-SS06hMnDyecVmRA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=8437637120, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-07-25T17:49:50,791][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.watch-history-11] for [watcher], because it doesn't exist
+[2020-07-25T17:49:50,792][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.triggered_watches] for [watcher], because it doesn't exist
+[2020-07-25T17:49:50,793][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.watches] for [watcher], because it doesn't exist
+[2020-07-25T17:49:50,822][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-anomalies-] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,822][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-state] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,823][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-config] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,823][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-inference-000002] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,831][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-meta] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,835][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-notifications-000001] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,835][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.ml-stats] for [ml], because it doesn't exist
+[2020-07-25T17:49:50,844][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [ilm-history] for [index_lifecycle], because it doesn't exist
+[2020-07-25T17:49:50,859][INFO ][o.e.x.c.t.IndexTemplateRegistry] [78] adding index template [.slm-history] for [index_lifecycle], because it doesn't exist
+[2020-07-25T17:49:50,890][INFO ][o.e.h.AbstractHttpServerTransport] [78] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-07-25T17:49:50,891][INFO ][o.e.n.Node               ] [78] started
+[2020-07-25T17:49:50,920][INFO ][o.e.g.GatewayService     ] [78] recovered [0] indices into cluster_state
+[2020-07-25T17:49:51,372][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2020-07-25T17:49:51,463][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.watches] for index patterns [.watches*]
+[2020-07-25T17:49:51,650][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.watch-history-11] for index patterns [.watcher-history-11*]
+[2020-07-25T17:49:51,748][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-state] for index patterns [.ml-state*]
+[2020-07-25T17:49:51,846][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-config] for index patterns [.ml-config]
+[2020-07-25T17:49:51,953][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-anomalies-] for index patterns [.ml-anomalies-*]
+[2020-07-25T17:49:52,040][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-meta] for index patterns [.ml-meta]
+[2020-07-25T17:49:52,132][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-inference-000002] for index patterns [.ml-inference-000002]
+[2020-07-25T17:49:52,213][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-notifications-000001] for index patterns [.ml-notifications-000001]
+[2020-07-25T17:49:52,290][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.ml-stats] for index patterns [.ml-stats-*]
+[2020-07-25T17:49:52,376][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [ilm-history] for index patterns [ilm-history-2*]
+[2020-07-25T17:49:52,449][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.slm-history] for index patterns [.slm-history-2*]
+[2020-07-25T17:49:52,520][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]
+[2020-07-25T17:49:52,599][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]
+[2020-07-25T17:49:52,682][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]
+[2020-07-25T17:49:52,753][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]
+[2020-07-25T17:49:52,814][INFO ][o.e.c.m.MetadataIndexTemplateService] [78] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]
+[2020-07-25T17:49:52,912][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [78] adding index lifecycle policy [watch-history-ilm-policy]
+[2020-07-25T17:49:52,979][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [78] adding index lifecycle policy [ml-size-based-ilm-policy]
+[2020-07-25T17:49:53,049][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [78] adding index lifecycle policy [ilm-history-ilm-policy]
+[2020-07-25T17:49:53,105][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [78] adding index lifecycle policy [slm-history-ilm-policy]
+[2020-07-25T17:49:53,292][INFO ][o.e.l.LicenseService     ] [78] license [ae5d262d-9410-4356-9aee-2d8f48d39ce7] mode [basic] - valid
+[2020-07-25T17:49:53,293][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [78] Active license is now [BASIC]; Security is disabled
